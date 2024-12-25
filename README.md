@@ -28,6 +28,7 @@ Para clonar este repositorio y probar la página localmente, sigue estos pasos:
 git clone https://github.com/ferreirabelen/TestTecnico-TA.git
 cd TestTecnico-TA
 Abre el archivo index.html en tu navegador para ver la página.
+```
 
 ## Contacto:
 <a href="https://www.linkedin.com/in/belenferreira21/">![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)</a> <a href="mailto:belenferreirajobs@gmail.com">![Email](https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=Gmail&logoColor=white)</a>
