@@ -14,6 +14,9 @@ El objetivo de este ejercicio fue imitar el comportamiento de unos prototipos pr
   2. Pregunta dependiente de la primera, con opciones basadas en la respuesta seleccionada.
   3. Pregunta final, donde las opciones de películas se basan en las respuestas anteriores.
   4. Página final con un botón que redirige al usuario a IMDB.
+
+
+##DEMO: https://movies-quiz-bf.netlify.app/
   
 # 💻 Tecnologías:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
