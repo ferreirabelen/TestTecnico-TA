@@ -35,4 +35,36 @@ Abre el archivo index.html en tu navegador para ver la página.
 
 ## Contacto:
 <a href="https://www.linkedin.com/in/belenferreira21/">![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)</a> <a href="mailto:belenferreirajobs@gmail.com">![Email](https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=Gmail&logoColor=white)</a>
+--------------------------
+
+# Technical Test - TA
+
+This project consists of creating an interactive landing page with a questionnaire that redirects the user to an IMDB page based on their answers.
+
+## Description
+
+The goal of this exercise was to replicate the behavior of provided prototypes, allowing users to select movies through a questionnaire. The options for each question depend on the previous answers, and upon completing the questionnaire, the user is redirected to the IMDB page of the last selected movie.
+
+## Features
+
+- **Interactivity:** Users can choose from different movie options, and the available options for subsequent questions change based on previous choices.
+- **Dynamic Questionnaire:** The questionnaire consists of 4 screens:
+  1. Initial question with three movie options.
+  2. A question dependent on the first, with options based on the selected answer.
+  3. Final question, where the movie options are based on previous answers.
+  4. Final page with a button that redirects the user to IMDB.
+
+## DEMO: https://movies-quiz-bf.netlify.app/
+  
+## Installation Instructions
+
+To clone this repository and try the page locally, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ferreirabelen/TestTecnico-TA.git
+cd TestTecnico-TA
+Open the index.html file in your browser to view the page.
+
 
