@@ -15,11 +15,8 @@ El objetivo de este ejercicio fue imitar el comportamiento de unos prototipos pr
   3. Pregunta final, donde las opciones de películas se basan en las respuestas anteriores.
   4. Página final con un botón que redirige al usuario a IMDB.
   
-## Tecnologías Utilizadas
-
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+# 💻 Tecnologías:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Instrucciones de Instalación
 
@@ -31,4 +28,7 @@ Para clonar este repositorio y probar la página localmente, sigue estos pasos:
 git clone https://github.com/ferreirabelen/TestTecnico-TA.git
 cd TestTecnico-TA
 Abre el archivo index.html en tu navegador para ver la página.
+
+## Contacto:
+<a href="https://www.linkedin.com/in/belenferreira21/">![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)</a> <a href="mailto:belenferreirajobs@gmail.com">![Email](https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=Gmail&logoColor=white)</a>
 
