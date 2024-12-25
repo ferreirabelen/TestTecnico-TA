@@ -14,7 +14,7 @@ El objetivo de este ejercicio fue imitar el comportamiento de unos prototipos pr
   2. Pregunta dependiente de la primera, con opciones basadas en la respuesta seleccionada.
   3. Pregunta final, donde las opciones de películas se basan en las respuestas anteriores.
   4. Página final con un botón que redirige al usuario a IMDB.
-  5. 
+  
 ## Tecnologías Utilizadas
 
 - **HTML5**
