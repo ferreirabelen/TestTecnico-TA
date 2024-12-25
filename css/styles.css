@@ -1,0 +1,199 @@
+body, h1, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+#background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: -1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#question-counter {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.steps-container {
+  display: flex;
+  gap: 10px;
+}
+
+.step {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.step.active {
+  background-color: #63dfb7;
+  transform: scale(1.2);
+}
+
+button {
+  display: inline-block;
+  background-color: #ef774b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ec602d;
+}
+
+#app {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 120px;
+  height: 160px;
+}
+
+.option-card {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.option-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.option-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+#progress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  #app {
+    padding: 10px;
+  }
+
+  .option-card {
+    width: 100px;
+  }
+
+  .option-card img {
+    height: 200px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .option-card {
+    width: 120px;
+  }
+
+  .option-card img {
+    height: 220px;
+  }
+
+  button {
+    padding: 9px 18px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .option-card {
+    width: 150px;
+  }
+
+  .option-card img {
+    height: 250px;
+  }
+}
