@@ -1,9 +1,3 @@
-body, h1, button {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 #background {
   position: fixed;
   top: 0;
@@ -35,12 +29,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 #question-counter {
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: black;
+  background-color: white;
   margin-bottom: 10px;
 }
 
@@ -80,10 +77,10 @@ button:hover {
 }
 
 #app {
-  width: 100%;
+  width: 90%;
   max-width: 600px;
   text-align: center;
-  background: #fff;
+  background: transparent;
   border-radius: 8px;
   padding: 20px;
 }
@@ -91,6 +88,7 @@ button:hover {
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
+  color: white;
 }
 
 img {
@@ -130,8 +128,21 @@ img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  background-color:white;
+  border-radius: 10px;
+  width:auto;
+  padding:20px;
 }
 
+.final-message{
+  background-color: white;
+  padding:10px;
+  
+}
+.main-title{
+  color: black;
+  padding:10px;
+}
 .footer {
   width: 100%;
   color: #ccc;
@@ -163,6 +174,9 @@ img {
     padding: 8px 16px;
     font-size: 14px;
   }
+  #progress-bar{
+    margin: 20px 0; 
+  }
 }
 
 @media (max-width: 768px) {
@@ -175,12 +189,16 @@ img {
   }
 
   .option-card img {
-    height: 220px;
+    height: 200px;
   }
 
   button {
     padding: 9px 18px;
     font-size: 15px;
+  }
+  
+  #progress-bar{
+    width: auto;
   }
 }
 

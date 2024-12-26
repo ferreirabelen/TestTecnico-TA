@@ -163,8 +163,9 @@ function renderFinalPage() {
       <h1 class="main-title">WATCH NEW MOVIES FOR FREE!</h1>
       <p>Watch any movies online for free without ads!</p>
       <p>Have fun watching your favorite movies!</p>
+      <button onclick="window.open('${imdbUrl}', '_blank')">¡Ver en IMDB!</button>
     </div>
-    <button onclick="window.open('${imdbUrl}', '_blank')">¡Ver en IMDB!</button>
+    
   `;
 
   updateProgressBar();
